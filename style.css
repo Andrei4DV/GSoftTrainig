@@ -1,0 +1,188 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+
+
+body {
+/* max-width : 1440px; */
+ /* background-color: #363F46; */
+ background-color: #191919
+/* padding-left: 300px; */
+/* display: flex;
+justify-content: center;  */
+
+}
+
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+
+.header__nav{
+    padding: 43px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero{
+    padding-top: 40px;
+
+}
+
+.hero__content{
+    display: flex;
+   
+}
+.hero__img{
+    position: relative;
+    
+}
+
+.hero__img--lines{
+    position: absolute;
+    top: -27px;
+    left: -27px;
+}
+
+.hero__title{
+    font-family: "DM Sans", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #FFF;
+}
+
+.hero__description{
+    max-width: 530px;
+    margin: 334px 0 0 60px;
+    position: relative;
+   
+}
+
+.hero__title span{
+    font-size: 75px;
+}
+
+.hero__title strong{
+    font-size: 80px;
+}
+.hero__line{
+    position: absolute;
+    top:190px;
+
+}
+.hero__text{
+    margin-top: 60px;
+    margin-bottom: 16px;
+    color: #FFF;
+    margin-left: 22px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+}
+
+.hero__icons{
+    margin-left: 22px;
+}
+
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+/* .icons__item{
+    margin-right: 17px;
+} */
+
+
+
+
