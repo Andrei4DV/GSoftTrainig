@@ -200,6 +200,12 @@ font-weight: 200;
     margin-right: 17px;
 } */
 
+
+
+
+.episodes{
+    margin-bottom: 160px;
+}
 .episodes__header{
     display: flex;
     justify-content: space-between;
@@ -232,7 +238,7 @@ font-weight: 200;
 
 .episodes__cards{
     margin-top: 64px;
-    margin-bottom: 160px;
+    /* margin-bottom: 160px; */
 }
 
 .card{
@@ -260,6 +266,9 @@ font-weight: 200;
 }
 
 .card__number{
+  
+}
+.blueText{
     color: #118DA8;
     font-family: "DM Sans", Sans-serif;
     font-weight:400px;
@@ -278,7 +287,8 @@ font-weight: 200;
 .button__black--second{
     width: 136px;
 }
-.card__text{
+
+.text{
     color:rgba(255,255,255,0.7);
     font-family: "DM Sans", Sans-serif;
     font-weight:400px;
@@ -288,4 +298,103 @@ font-weight: 200;
     width: 208px;
     height: 51px;
     border-radius: 6px;
+}
+
+
+
+
+
+.about{
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+.jacob{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 101px;
+}
+.jacob__description{
+    max-width: 540px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.jacob__icon{
+    width: 112px;
+    height: 112px;
+   
+}
+.jacobs__smaltext{
+    font-size: 18px;
+}
+
+
+.form{
+    background-color: black;
+    margin-top: 101px;
+    border-radius: 32px;
+    display: flex;
+    height: 387px;
+    position: relative;
+}
+.form__description{
+    margin:60px 0 143px 60px ;
+    width:718px;
+}
+.form__title{
+    
+    font-size: 72px;
+}
+.form__lines{
+    position: absolute;
+    top: 320px;
+    left: -40px;
+}
+
+.form__button{
+    width: 87px;
+    height: 58px;
+    border-radius: 6px;
+}
+
+.form__input{
+    background-color: #191919;
+    width: 552px;
+    height: 82px;
+    border-radius: 6px; 
+}
+
+
+
+
+.reviews{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.feedbacks{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.feedback{
+    background-color: black;
+    width:423px;
+    height: 321px;
+    border-radius: 32px;
+    margin-bottom: 16px;
+    padding: 54px 0 0 50px;
+}
+.feedback__title{
+    margin-top: 21px;
+    font-size: 36px;
+    letter-spacing: normal;
+    max-width: 313px;
+    line-height: 43px;
+}
+.feedback__paragraph{
+    margin-top: 19px;
+    font-size: 24px;
+
 }
