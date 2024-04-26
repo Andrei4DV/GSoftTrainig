@@ -1,0 +1,96 @@
+
+.episodes{
+    margin-bottom: 160px;
+}
+.episodes__header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.title{
+    font-family: "DM Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #FFF;
+}
+.episodes__title{
+    margin:93px 0 0 0;
+}
+
+.button{
+    background-color: #118DA8;
+    color:#FFF;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+.episodes__button{
+    margin-top: 124px;
+    width: 178px;
+    height: 51px;
+    border-radius: 6px;
+}
+
+.episodes__cards{
+    margin-top: 64px;
+}
+
+.card{
+    display: flex;
+}
+.episodes__card{
+    padding: 40px;
+    background-color: black;
+    border-radius: 32px;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+}
+
+.card__desription{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 53px;
+}
+
+.blueText{
+    color: #118DA8;
+    font-family: "DM Sans", Sans-serif;
+    font-weight:400px;
+    font-size:17px;
+}
+.button__black{
+    background-color:#191919;
+    border-radius: 6px;
+    width: 73px;
+    height: 27px;
+    color: #FFF;
+    font-family: "DM Sans", Sans-serif;
+    font-weight:400px;
+    font-size:18px;
+}
+.button__black--second{
+    width: 136px;
+}
+
+.text{
+    color:rgba(255,255,255,0.7);
+    font-family: "DM Sans", Sans-serif;
+    font-weight:400px;
+    font-size: 22px;
+}
+.card__button{
+    width: 208px;
+    height: 51px;
+    border-radius: 6px;
+}
+
+
+

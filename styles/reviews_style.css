@@ -1,0 +1,30 @@
+
+.reviews{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.feedbacks{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.feedback{
+    background-color: black;
+    width:423px;
+    height: 321px;
+    border-radius: 32px;
+    margin-bottom: 16px;
+    padding: 54px 0 0 50px;
+}
+.feedback__title{
+    margin-top: 21px;
+    font-size: 36px;
+    letter-spacing: normal;
+    max-width: 313px;
+    line-height: 43px;
+}
+.feedback__paragraph{
+    margin-top: 19px;
+    font-size: 24px;
+
+}

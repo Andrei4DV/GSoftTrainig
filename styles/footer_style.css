@@ -1,0 +1,40 @@
+
+
+.footer__content{
+    padding-top: 100px;
+    padding-bottom: 127px;
+    display: flex;
+}
+
+.footer__logo{
+    margin-bottom: 23px;
+}
+.logo__icons{
+    display: flex;
+    gap:11px;
+}
+
+.footer__menu{
+    margin-left: 240px;
+    display: inline;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+}
+
+.menu li{
+    padding-bottom: 10px;
+}
+
+
+.footer__list{
+    margin-left: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__icons{
+    align-items: baseline;
+    margin-left: 17px;
+}

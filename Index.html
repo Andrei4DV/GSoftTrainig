@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/reset_style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/hero_style.css">
+    <link rel="stylesheet" href="styles/episeodes_style.css">
+    <link rel="stylesheet" href="styles/about_style.css">
+    <link rel="stylesheet" href="styles/reviews_style.css">
+    <link rel="stylesheet" href="styles/footer_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
@@ -11,22 +17,22 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header sticky">
         <div class="container">
-            <nav class="header__nav">
+            <nav class="header__nav" >
                 <img class="logo nav__logo" src="images/Logo.svg" alt="logo">
                 <ul class="menu nav__menu">
-                    <li><a href="#" class="menu__item">Home</a></li>
-                    <li><a href="#" class="menu__item">Episodes</a></li>
-                    <li><a href="#" class="menu__item">About</a></li>
-                    <li><a href="#" class="menu__item">Contact</a></li>
+                    <li><a href="#a" class="menu__item">Home</a></li>
+                    <li><a href="#b" class="menu__item">Episodes</a></li>
+                    <li><a href="#c" class="menu__item">About</a></li>
+                    <li><a href="#d" class="menu__item">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
 
-    <div class="hero">
+    <div class="hero" id="a">
         <div class="container">
             <div class="hero__content">
                 <div class="hero__img">
@@ -51,7 +57,7 @@
     </div>
 
 
-    <section class="episodes">
+    <section class="episodes" id="b">
         <div class="container">
 
             <div class="episodes__header">
@@ -94,7 +100,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="c">
         <div class="container">
             <div class="jacob">
                 <div class="jacob__description">
@@ -128,7 +134,7 @@
         </div>
     </section>
 
-    <section class="reviews">
+    <section class="reviews" id="d">
         <div class="container">
             <div class="feedbacks">
                 <div class="feedback ">

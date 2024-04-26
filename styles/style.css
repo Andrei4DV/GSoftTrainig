@@ -1,0 +1,17 @@
+body {
+    background-color: #191919
+}
+
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+    scroll-margin-top: 3em;
+}
+
+.sticky {
+    background-color: #191919;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
