@@ -1,6 +1,4 @@
-
-
-.footer__content{
+.footer{
     padding-top: 100px;
     padding-bottom: 127px;
     display: flex;
@@ -17,12 +15,9 @@
 .footer__menu{
     margin-left: 240px;
     display: inline;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start; */
 }
 
-.menu li{
+.menu__li{
     padding-bottom: 10px;
 }
 

@@ -1,4 +1,3 @@
-
 .about{
     padding-top: 100px;
     padding-bottom: 75px;
@@ -40,30 +39,9 @@
 .form__title{
     font-size: 72px;
 }
-.form__lines{
-    position: absolute;
-    top: 320px;
-    left: -40px;
-}
 
-.form__button{
-    width: 87px;
-    height: 58px;
-    border-radius: 6px;
-}
 .form__group{
     margin-left: 20px;
-}
-.form__input{
-    background-color: #191919;
-    width: 552px;
-    height: 82px;
-    border-radius: 6px; 
-    color:rgba(255,255,255,0.7);
-    font-family: "DM Sans", Sans-serif;
-    font-weight:400px;
-    font-size: 24px;
-    padding-left: 20px;
 }
 
 .form__name{
@@ -71,24 +49,35 @@
     position: relative; 
    }
 
-.form__label{
-     position: absolute;
-     left: 20px;
-     top:26px;
-     color:rgba(255,255,255,0.7);
-     font-family: "DM Sans", Sans-serif;
-     font-weight:400px;
-     font-size: 24px;
+.form__input{
+    background-color: #191919;
+    width: 552px;
+    height: 82px;
+    border-radius: 6px; 
+    color:rgba(255,255,255,0.7);
+    font-size: 24px;
+    padding-left: 20px;
 }
+
+.form__input::placeholder{
+    color:rgba(255,255,255,0.7);
+}
+
 .form__email{
     margin-top: 20px;
     margin-bottom: 20px;
     position: relative; 
-   }
+}
 
-.form__input:focus + label,
-.form__input:required:valid + label
-{
-  display: none;
+.form__button{
+    width: 87px;
+    height: 58px;
+    border-radius: 6px;
+}
+
+.form__lines{
+    position: absolute;
+    top: 320px;
+    left: -40px;
 }
 

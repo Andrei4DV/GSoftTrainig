@@ -10,7 +10,7 @@
 }
 .feedback{
     background-color: black;
-    width:423px;
+    width:calc((100% - 40px * 2) / 3);
     height: 321px;
     border-radius: 32px;
     margin-bottom: 16px;
@@ -26,5 +26,4 @@
 .feedback__paragraph{
     margin-top: 19px;
     font-size: 24px;
-
 }

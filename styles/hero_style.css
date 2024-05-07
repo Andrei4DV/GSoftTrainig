@@ -1,3 +1,13 @@
+.header{
+    background-color: #191919;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-left: -100px;
+    padding-left: 100px;
+
+}
 
 .header__nav{
     padding: 43px 0 ;
@@ -13,15 +23,15 @@
 }
 
 .menu__item{
-color: #FFF;
-font-family: "DM Sans", sans-serif;
-font-size: 18px;
-font-weight: 200;
+    font-size: 18px;
+    font-weight: 200;
 
 }
 .menu__item:hover{
     color:#118DA8;
 }
+
+
 
 .hero{
     padding-top: 40px;
@@ -37,18 +47,15 @@ font-weight: 200;
     
 }
 
-.hero__img--lines{
+.hero__img-lines{
     position: absolute;
     top: -27px;
     left: -27px;
 }
 
 .hero__title{
-    font-family: "DM Sans", sans-serif;
     font-size: 70px;
-    font-weight: 400;
     letter-spacing: 5px;
-    color: #FFF;
 }
 
 .hero__description{
@@ -58,11 +65,11 @@ font-weight: 200;
    
 }
 
-.hero__title span{
+.hero__title--span{
     font-size: 75px;
 }
 
-.hero__title strong{
+.hero__title--strong{
     font-size: 80px;
 }
 .hero__line{
@@ -73,9 +80,7 @@ font-weight: 200;
 .hero__text{
     margin-top: 60px;
     margin-bottom: 16px;
-    color: #FFF;
     margin-left: 22px;
-    font-family: "DM Sans", sans-serif;
     font-size: 15px;
 }
 
